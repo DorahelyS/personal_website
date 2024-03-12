@@ -1,12 +1,11 @@
-import './App.css';
+//import './App.css';
+
+import MainPage from "./components/MainPage/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2> DORAHELY </h2>
-      
-      </header>
+        <MainPage></MainPage>
     </div>
   );
 }
