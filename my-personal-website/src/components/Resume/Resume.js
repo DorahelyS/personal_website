@@ -16,7 +16,7 @@ function Resume() {
                 </header>
             </div>
             <div className="border-double border-4 rounded-lg border-rose-100 h-screen flex justify-left background-color: bg-neutral-50">
-
+                <a href="/Dorahely_Sanchez_Resume.pdf"> </a>
             </div>
 
 
