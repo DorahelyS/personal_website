@@ -18,7 +18,7 @@ function About() {
             <div className="border-double border-4 rounded-lg border-rose-100 h-screen flex justify-left background-color: bg-neutral-50">
             <img src="/dorahely.jpg" alt="Dorahely" width="auto" height="auto" style={{ marginTop: '30px', marginBottom: '30px', marginLeft: '30px' }}></img>
                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh', marginLeft: '20px', marginRight: '20px'  }}>
-                    <h1 style={{ marginBottom: '20px' }}> Hi there!  </h1>
+                    <h1 style={{ marginBottom: '20px' }}> ¡Hola! ¡Hola!  </h1>
                     <p style={{ marginBottom: '20px' }}>
                         
                         I'm Dorahely (pronounced Dora-Ellie), I was born in Mexico but raised in beautiful San Diego.
@@ -30,7 +30,7 @@ function About() {
 
                     </p>
                     <p style={{ marginBottom: '20px' }}>Outside of my professional career you can catch me surfing, searching for the best bagel, or attempting a recipe from Bon Appétit.</p>
-                    <p  style={{ fontSize: '2em' }}>  🌞 🏄🏽‍♀️ 🥯 🍅 🌼  </p>
+                    {/*<p  style={{ fontSize: '2em' }}>  🌞 🏄🏽‍♀️ 🥯 🍅 🌼  </p>*/}
                 </div>
             </div>
 
