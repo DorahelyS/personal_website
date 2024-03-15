@@ -10,12 +10,13 @@ function About() {
                         <img className="h-28" src="/pink_linenbg copy.png" alt="Dorahely Logo" />
 
                         <div className="mr-4">
-                            <NavLink to={'/'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}>home</NavLink>
+                            <NavLink to={'/'} className="bg-neutral-50 hover:bg-rose-500/50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}>home</NavLink>
                         </div>
                     </div>
                 </header>
             </div>
             <div className="border-double border-4 rounded-lg border-rose-100 h-screen flex justify-left background-color: bg-neutral-50">
+            <img src="/dorahely.jpg" alt="Dorahely" width="auto" height="auto" style={{ marginTop: '30px', marginBottom: '30px', marginLeft: '30px' }}></img>
                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh', marginLeft: '20px', marginRight: '20px'  }}>
                     <h1 style={{ marginBottom: '20px' }}> Hi there!  </h1>
                     <p style={{ marginBottom: '20px' }}>
