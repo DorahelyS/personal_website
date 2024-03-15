@@ -23,13 +23,13 @@ function MainPage() {
                     ))*/}
                     <NavLink to={'/about'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4" style={{fontFamily: 'Parisienne', marginLeft:'160px' }}> about</NavLink>
                     <NavLink to={'/projects'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4 font-Parisienne" style={{fontFamily: 'Parisienne', marginLeft:'60px'}}> projects</NavLink>
-                    <NavLink to={'/blogs'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4 font-Parisienne" style={{fontFamily: 'Parisienne', marginLeft:'60px' }}> blogs</NavLink>
-                    <NavLink to={'resume'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4 font-Parisienne" style={{ fontFamily: 'Parisienne', marginLeft:'60px'}}> resume</NavLink>
+                    <NavLink to={'https://medium.com/@dorahelys'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4 font-Parisienne" style={{fontFamily: 'Parisienne', marginLeft:'60px' }}> blogs</NavLink>
+                    <NavLink to={'/resume'} className="bg-rose-500/50 hover:bg-neutral-50 text-black text-sky-600 rounded px-4 py-4 font-Parisienne" style={{ fontFamily: 'Parisienne', marginLeft:'60px'}}> resume</NavLink>
             
                 </div>
               
             </div>
-            <footer className="bg-zinc-50 py-4 text-center " style={{ fontSize: 'small', fontFamily: 'Parisienne'}}>made with React and  ☕</footer>
+            <footer className="bg-zinc-50 py-4 text-center " style={{ fontSize: 'small', fontFamily: 'Parisienne'}}>made with React and  ☕ 🌸</footer>
         </div>
     );
 }

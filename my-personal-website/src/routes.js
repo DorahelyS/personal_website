@@ -2,7 +2,7 @@
 import App from "./App";
 import MainPage from "./components/MainPage/MainPage";
 import About from "./components/About/About";
-import Blogs from "./components/Blogs/Blogs";
+//import Blogs from "./components/Blogs/Blogs";
 //import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
@@ -26,10 +26,6 @@ const routes = [
             {
                 path: '/projects',
                 element: <Projects />
-            },
-            {
-                path: '/blogs',
-                element: <Blogs />
             },
             {
                 path: '/resume',
