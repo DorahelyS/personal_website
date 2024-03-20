@@ -22,7 +22,7 @@ function Resume() {
                 </header>
             </div>
 
-            <div className="border-double border-4 rounded-lg border-rose-100">
+            <div>
                 <div className="flex justify-center items-center">
                     <Document
                         file="/Dorahely_Sanchez_Resume.pdf"

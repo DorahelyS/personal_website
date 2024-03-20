@@ -1,52 +1,18 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 
-function useInterval(callback, delay) {
-    const savedCallback = useRef();
-
-    useEffect(() => {
-        savedCallback.current = callback;
-    }, [callback]);
-
-    useEffect(() => {
-        function tick() {
-            savedCallback.current();
-        }
-        if (delay !== null) {
-            const id = setInterval(tick, delay);
-            return () => clearInterval(id);
-        }
-    }, [delay]);
-}
-
-
-function UpdatingText() {
-    //for mapping if I needed to
-    //const buttonLabels = ["Projects", "About", "Resume", "Education", "Blogs", "Contact"]
-    const [text, setText] = useState("");
-    const texts = ["DEVELOPER", "CREATOR", "EXPLORER", "LATINA"];
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    // Use headless UI's useInterval hook to update the text every second
-    useInterval(() => {
-        setText(texts[currentIndex]);
-        setCurrentIndex((currentIndex + 1) % texts.length);
-    }, 1000);
-
-    return <p>{text}</p>;
-}
 function MainPage() {
     return (
         <div className="App">
             <header className="bg-zinc-50">
                 <div className="flex justify-between items-center ml-4">
+            
+
                     {/* Top left: Dorahely Logo */}
+                    <div className="flex-grow flex justify-center items-center" style={{ fontFamily: 'Parisienne', fontSize: '50px', marginLeft: '120px' }}>
                     <img className="h-28" src="/pink_linenbg copy.png" alt="Dorahely Logo" />
 
-                    {/* Top center: UpdatingText */}
-                    <div className="flex-grow flex justify-center items-center" style={{ fontFamily: 'Parisienne', fontSize: '50px', marginLeft: '120px' }}>
-                        <UpdatingText />
                     </div>
 
                     {/* Top right: NavLinks */}
@@ -58,7 +24,7 @@ function MainPage() {
                 </div>
             </header>
 
-            <div className="border-double border-4 rounded-lg border-rose-100 bg-neutral-50">
+            <div className="bg-neutral-50">
 
                 <div >
                     <a href="https://www.loom.com/share/30e0d9ff62204ed0b14b66921b65a567">
@@ -81,3 +47,4 @@ export default MainPage;
 /* remember using src attribute for an image - it is relative to the public directory of my project  / means I am starting from the root directory 
 /* // remember . represents current directory - this location & .. representsthe parent directory - one level up 
 /*<button key={index} class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded" style={{ marginTop: '30px', marginBottom: '30px', marginLeft: '20px' }}>{label}</button> */ 
+// border-double border-4 rounded-lg border-rose-100
