@@ -7,38 +7,41 @@ function MainPage() {
         <div className="App">
             <header className="bg-zinc-50">
                 <div className="flex justify-between items-center ml-4">
-            
-
+        
                     {/* Top left: Dorahely Logo */}
-                    <div className="flex-grow flex justify-center items-center" style={{ fontFamily: 'Parisienne', fontSize: '50px', marginLeft: '120px' }}>
                     <img className="h-28" src="/pink_linenbg copy.png" alt="Dorahely Logo" />
-
-                    </div>
+                    <div className="flex-grow flex justify-center items-center" style={{ fontFamily: 'Parisienne', fontSize: '50px', marginLeft: '120px' }}></div>
 
                     {/* Top right: NavLinks */}
                     <div className="mr-4">
-                        <NavLink to={'/about'} className="bg-neutral-50 hover:bg-rose-500/50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> about</NavLink>
-                        <NavLink to={'https://medium.com/@dorahelys'} className="bg-neutral-50 hover:bg-rose-500/50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> blogs</NavLink>
-                        <NavLink to={'/resume'} className="bg-neutral-50 hover:bg-rose-500/50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> resume</NavLink>
+                        <NavLink to={'/about'} className="bg-neutral-50 hover:bg-fuchsia-500/50 text-black text-stone-800 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> about</NavLink>
+                        <NavLink to={'https://medium.com/@dorahelys'} className="bg-neutral-50 hover:bg-fuchsia-500/50 text-black text-stone-800 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> blogs</NavLink>
+                        <NavLink to={'/resume'} className="bg-neutral-50 hover:bg-fuchsia-500/50 text-black text-stone-800 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}> resume</NavLink>
                     </div>
                 </div>
             </header>
 
             <div className="bg-neutral-50">
-
                 <div >
-                    <a href="https://www.loom.com/share/30e0d9ff62204ed0b14b66921b65a567">
-
-                        <img src="/UBUNTU.png" alt="UBUNTU screenshot" />
-                    </a>
-                    <a href="https://www.loom.com/share/20e63a37141646cc9f7f54c235272a2a">
                     
-                        <img src="/UNITE.png" alt="UNITE screenshot" />
-                    </a>
+
+                <NavLink to="https://www.loom.com/share/30e0d9ff62204ed0b14b66921b65a567">
+                    <img src="/UBUNTU.png" alt="UBUNTU screenshot" />
+                </NavLink>
+                <NavLink to="https://www.loom.com/share/20e63a37141646cc9f7f54c235272a2a">
+                    <img src="/UNITE.png" alt="UNITE screenshot" />
+                </NavLink>
+        
                 </div>
             </div>
 
             <footer className="bg-zinc-50 py-4 text-center" style={{ fontSize: 'small', fontFamily: 'Parisienne', marginTop: "auto" }}>made with React and  ☕ 🌸</footer>
+            <NavLink to="https://www.linkedin.com/in/dorahely-sanchez/">
+            <footer className="bg-zinc-50 py-4 text-center" style={{ fontSize: 'small', fontFamily: 'Parisienne'}}>LinkedIn</footer>
+            </NavLink>
+            <NavLink to="https://github.com/DorahelyS">
+            <footer className="bg-zinc-50 py-4 text-center" style={{ fontSize: 'small', fontFamily: 'Parisienne'}}>GitHub</footer>
+            </NavLink>
         </div>
     );
 }

@@ -16,7 +16,7 @@ function Resume() {
                         <img className="h-28" src="/pink_linenbg copy.png" alt="Dorahely Logo" />
 
                         <div className="mr-4">
-                            <NavLink to={'/'} className="bg-neutral-50 hover:bg-rose-500/50 text-black text-sky-600 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}>home</NavLink>
+                            <NavLink to={'/'} className="bg-neutral-50 hover:bg-fuchsia-500/50 text-black text-stone-800 rounded px-4 py-4" style={{ fontFamily: 'Parisienne' }}>home</NavLink>
                         </div>
                     </div>
                 </header>
